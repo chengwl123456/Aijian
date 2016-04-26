@@ -15,6 +15,7 @@
 		4712CE821CCF0A8000777992 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4712CE801CCF0A8000777992 /* LaunchScreen.storyboard */; };
 		4712CE8D1CCF0A8000777992 /* InitXcodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4712CE8C1CCF0A8000777992 /* InitXcodeTests.m */; };
 		4712CE981CCF0A8000777992 /* InitXcodeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4712CE971CCF0A8000777992 /* InitXcodeUITests.m */; };
+		4712CEA71CCF145600777992 /* LOGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4712CEA61CCF145600777992 /* LOGViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		4712CE931CCF0A8000777992 /* InitXcodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InitXcodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4712CE971CCF0A8000777992 /* InitXcodeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InitXcodeUITests.m; sourceTree = "<group>"; };
 		4712CE991CCF0A8000777992 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4712CEA51CCF145600777992 /* LOGViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOGViewController.h; sourceTree = "<group>"; };
+		4712CEA61CCF145600777992 /* LOGViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOGViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				4712CE761CCF0A8000777992 /* AppDelegate.m */,
 				4712CE781CCF0A8000777992 /* ViewController.h */,
 				4712CE791CCF0A8000777992 /* ViewController.m */,
+				4712CEA51CCF145600777992 /* LOGViewController.h */,
+				4712CEA61CCF145600777992 /* LOGViewController.m */,
 				4712CE7B1CCF0A8000777992 /* Main.storyboard */,
 				4712CE7E1CCF0A8000777992 /* Assets.xcassets */,
 				4712CE801CCF0A8000777992 /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 				4712CE7A1CCF0A8000777992 /* ViewController.m in Sources */,
 				4712CE771CCF0A8000777992 /* AppDelegate.m in Sources */,
 				4712CE741CCF0A8000777992 /* main.m in Sources */,
+				4712CEA71CCF145600777992 /* LOGViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
