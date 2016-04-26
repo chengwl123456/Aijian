@@ -18,7 +18,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     NSLog(@"Git is a distributed  version control system.");
-    NSLog(@"Git is free software.");
+    NSLog(@"Git is free software distributed under the GPL.");
 }
 
 - (void)didReceiveMemoryWarning {
